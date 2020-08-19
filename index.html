@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <script>
+        (function (window) {
+            let conputedREM = function conputedREM() {
+                let widW = document.documentElement.clientWidth || document.body.clientWidth,
+                    desW = 640;
+                if (widW >= desW) {
+                    document.documentElement.style.fontSize = "100px";
+                    return;
+                }
+                document.documentElement.style.fontSize = widW / desW * 100 + "px"
+            }
+            conputedREM();
+
+            window.addEventListener("resize", conputedREM());
+        })(window);
+    </script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <img src="./images/header.png" alt="">
+            <form>
+                <input type="text" placeholder="搜索公司/职位">
+                <button>搜索</button>
+            </form>
+        </header>
+        <div class="list">
+            <dl>
+                <dt>
+                    <img src="./images/senior.png" alt="">
+                    <div>技术</div>
+                </dt>
+                <dd><a href="#">Jave</a></dd>
+                <dd><a href="#">Jave</a></dd>
+                <dd><a href="#">Jave</a></dd>
+                <dd><a href="#">Jave</a></dd>
+                <dd><a href="#">Jave</a></dd>
+                <dd><a href="#">Jave</a></dd>
+            </dl>
+            <dl>
+                <dt>
+                    <img src="./images/senior.png" alt="">
+                    <div>技术</div>
+                </dt>
+                <dd><a href="#">Jave</a></dd>
+                <dd><a href="#">Jave</a></dd>
+                <dd><a href="#">Jave</a></dd>
+                <dd><a href="#">Jave</a></dd>
+                <dd><a href="#">Jave</a></dd>
+                <dd><a href="#">Jave</a></dd>
+            </dl>
+            <dl>
+                <dt>
+                    <img src="./images/senior.png" alt="">
+                    <div>技术</div>
+                </dt>
+                <dd><a href="#">Jave</a></dd>
+                <dd><a href="#">Jave</a></dd>
+                <dd><a href="#">Jave</a></dd>
+                <dd><a href="#">Jave</a></dd>
+                <dd><a href="#">Jave</a></dd>
+                <dd><a href="#">Jave</a></dd>
+            </dl>
+        </div>
+        <footer>
+            <p>Lorem ipsum dolor sit amet consectetur.
+
+            </p>
+            <p>Lorem, ipsum dolor.</p>
+        </footer>
+    </div>
+</body>
+
+</html>
