@@ -4,266 +4,257 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>武汉PHP招聘,武汉PHP人才网,武汉PHP招聘网</title>
-    <link rel="stylesheet" href="./css/list.css">
-    <script>
-        (function (window) {
-            let sizeREM = function () {
-                let winW = document.documentElement.clientWidth || document.body.clientWidth,
-                    desW = 640;
-                if (winW > desW) {
-                    document.documentElement.style.fontSize = "100px";
-                    return;
-                }
-                document.documentElement.style.fontSize = winW / desW * 100 + "px";
-            }
-            sizeREM();
-            window.addEventListener("resize", sizeREM);
-        })(window);
-    </script>
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
 </head>
 
 <body>
     <div class="container">
-        <header class="header">
+        <!-- header -->
+        <div class="list-header flex">
             <form class="flex">
                 <img src="./images/icon-home.png" alt="">
                 <div class="inner flex">
-                    <input type="text" placeholder="php/前端" />
+                    <input type="text" value="Web前端">
                     <span>&times;</span>
                 </div>
-                <button>搜速</button>
+                <button>搜索</button>
             </form>
-        </header>
-        <div class="firter flex">
-            <dl class="active">
-                <dt>经验</dt>
-                <dd>
-                    <ul>
-                        <li class="active">不限</li>
-                        <li>实习</li>
-                        <li>1年之内</li>
-                        <li>1-3年</li>
-                    </ul>
-                </dd>
-            </dl>
-            <dl>
-                <dt>经验</dt>
-                <dd>
-                    <ul>
-                        <li>不限</li>
-                        <li>实习</li>
-                        <li>1年之内</li>
-                        <li>1-3年</li>
-                    </ul>
-                </dd>
-            </dl>
-            <dl>
-                <dt>经验</dt>
-                <dd>
-                    <ul>
-                        <li>不限</li>
-                        <li>实习</li>
-                        <li>1年之内</li>
-                        <li>1-3年</li>
-                    </ul>
-                </dd>
-            </dl>
-            <dl>
-                <dt>经验</dt>
-                <dd>
-                    <ul>
-                        <li>不限</li>
-                        <li>实习</li>
-                        <li>1年之内</li>
-                        <li>1-3年</li>
-                    </ul>
-                </dd>
-            </dl>
-            <dl>
-                <dt>经验</dt>
-                <dd>
-                    <ul>
-                        <li>不限</li>
-                        <li>实习</li>
-                        <li>1年之内</li>
-                        <li>1-3年</li>
-                    </ul>
-                </dd>
-            </dl>
         </div>
+        <!-- nav -->
+        <div class="firter flex">
+            <!-- dl 加active 显示下拉信息 -->
+            <dl class="">
+                <dt>经验</dt>
+                <dd>
+                    <ul>
+                        <li class="active">
+                            不限
+                        </li>
+                        <li>在校生</li>
+                        <li>工作一年</li>
+                        <li>工作三年</li>
+                        <li>公祖十年</li>
+                    </ul>
+                </dd>
+            </dl>
+            <dl>
+                <dt>经验</dt>
+                <dd>
+                    <ul>
+                        <li class="active">
+                            不限
+                        </li>
+                        <li>在校生</li>
+                        <li>工作一年</li>
+                        <li>工作三年</li>
+                        <li>公祖十年</li>
+                    </ul>
+                </dd>
+            </dl>
+            <dl>
+                <dt>经验</dt>
+                <dd>
+                    <ul>
+                        <li class="active">
+                            不限
+                        </li>
+                        <li>在校生</li>
+                        <li>工作一年</li>
+                        <li>工作三年</li>
+                        <li>公祖十年</li>
+                    </ul>
+                </dd>
+            </dl>
+            <dl>
+                <dt>经验</dt>
+                <dd>
+                    <ul>
+                        <li class="active">
+                            不限
+                        </li>
+                        <li>在校生</li>
+                        <li>工作一年</li>
+                        <li>工作三年</li>
+                        <li>公祖十年</li>
+                    </ul>
+                </dd>
+            </dl>
+            <dl>
+                <dt>经验</dt>
+                <dd>
+                    <ul>
+                        <li class="active">
+                            不限
+                        </li>
+                        <li>在校生</li>
+                        <li>工作一年</li>
+                        <li>工作三年</li>
+                        <li>公祖十年</li>
+                    </ul>
+                </dd>
+            </dl>
 
-        <!-- list -->
+
+        </div>
+        <!-- 列表 -->
         <ul class="list">
             <li>
-                <a href="" class="flex">
-                    <div class="img">
-                        <img src="./images/time.jpg" alt="">
-                    </div>
+                <a href="" class="flex item">
+                    <img src="./images/time.jpg" alt="">
                     <div class="conter">
-                        <div class="title">
-                            PHP/GO后台开发 （腾讯全资子公司）
-                            <span class="salary">14-26K·16薪</span>
+                        <div class="title flex">
+                            <span>PHP开发实习生</span>
+                            <span class="salary">50-70元</span>
                         </div>
                         <div class="name">
-                            武汉天地
+                            科比科技
                         </div>
                         <div class="msg">
                             <span>武汉</span>
                             <span>5-10年</span>
-                            <span>本科</span>
+                            <span>大壮</span>
                         </div>
                     </div>
                 </a>
             </li>
             <li>
-                <a href="">
-                    <div class="img">
-                        <img src="./images/time.jpg" alt="">
-                    </div>
+                <a href="" class="flex item">
+                    <img src="./images/time.jpg" alt="">
                     <div class="conter">
-                        <div class="title">
-                            PHP/GO后台开发 （腾讯全资子公司）
-                            <span class="salary">14-26K·16薪</span>
+                        <div class="title flex">
+                            <span>PHP开发实习生</span>
+                            <span class="salary">50-70元</span>
                         </div>
                         <div class="name">
-                            武汉天地
+                            科比科技
                         </div>
                         <div class="msg">
                             <span>武汉</span>
                             <span>5-10年</span>
-                            <span>本科</span>
+                            <span>大壮</span>
                         </div>
                     </div>
                 </a>
             </li>
             <li>
-                <a href="">
-                    <div class="img">
-                        <img src="./images/time.jpg" alt="">
-                    </div>
+                <a href="" class="flex item">
+                    <img src="./images/time.jpg" alt="">
                     <div class="conter">
-                        <div class="title">
-                            PHP/GO后台开发 （腾讯全资子公司）
-                            <span class="salary">14-26K·16薪</span>
+                        <div class="title flex">
+                            <span>PHP开发实习生</span>
+                            <span class="salary">50-70元</span>
                         </div>
                         <div class="name">
-                            武汉天地
+                            科比科技
                         </div>
                         <div class="msg">
                             <span>武汉</span>
                             <span>5-10年</span>
-                            <span>本科</span>
+                            <span>大壮</span>
                         </div>
                     </div>
                 </a>
             </li>
             <li>
-                <a href="">
-                    <div class="img">
-                        <img src="./images/time.jpg" alt="">
-                    </div>
+                <a href="" class="flex item">
+                    <img src="./images/time.jpg" alt="">
                     <div class="conter">
-                        <div class="title">
-                            PHP/GO后台开发 （腾讯全资子公司）
-                            <span class="salary">14-26K·16薪</span>
+                        <div class="title flex">
+                            <span>PHP开发实习生</span>
+                            <span class="salary">50-70元</span>
                         </div>
                         <div class="name">
-                            武汉天地
+                            科比科技
                         </div>
                         <div class="msg">
                             <span>武汉</span>
                             <span>5-10年</span>
-                            <span>本科</span>
+                            <span>大壮</span>
                         </div>
                     </div>
                 </a>
             </li>
             <li>
-                <a href="">
-                    <div class="img">
-                        <img src="./images/time.jpg" alt="">
-                    </div>
+                <a href="" class="flex item">
+                    <img src="./images/time.jpg" alt="">
                     <div class="conter">
-                        <div class="title">
-                            PHP/GO后台开发 （腾讯全资子公司）
-                            <span class="salary">14-26K·16薪</span>
+                        <div class="title flex">
+                            <span>PHP开发实习生</span>
+                            <span class="salary">50-70元</span>
                         </div>
                         <div class="name">
-                            武汉天地
+                            科比科技
                         </div>
                         <div class="msg">
                             <span>武汉</span>
                             <span>5-10年</span>
-                            <span>本科</span>
+                            <span>大壮</span>
                         </div>
                     </div>
                 </a>
             </li>
             <li>
-                <a href="">
-                    <div class="img">
-                        <img src="./images/time.jpg" alt="">
-                    </div>
+                <a href="" class="flex item">
+                    <img src="./images/time.jpg" alt="">
                     <div class="conter">
-                        <div class="title">
-                            PHP/GO后台开发 （腾讯全资子公司）
-                            <span class="salary">14-26K·16薪</span>
+                        <div class="title flex">
+                            <span>PHP开发实习生</span>
+                            <span class="salary">50-70元</span>
                         </div>
                         <div class="name">
-                            武汉天地
+                            科比科技
                         </div>
                         <div class="msg">
                             <span>武汉</span>
                             <span>5-10年</span>
-                            <span>本科</span>
+                            <span>大壮</span>
                         </div>
                     </div>
                 </a>
             </li>
             <li>
-                <a href="">
-                    <div class="img">
-                        <img src="./images/time.jpg" alt="">
-                    </div>
+                <a href="" class="flex item">
+                    <img src="./images/time.jpg" alt="">
                     <div class="conter">
-                        <div class="title">
-                            PHP/GO后台开发 （腾讯全资子公司）
-                            <span class="salary">14-26K·16薪</span>
+                        <div class="title flex">
+                            <span>PHP开发实习生</span>
+                            <span class="salary">50-70元</span>
                         </div>
                         <div class="name">
-                            武汉天地
+                            科比科技
                         </div>
                         <div class="msg">
                             <span>武汉</span>
                             <span>5-10年</span>
-                            <span>本科</span>
+                            <span>大壮</span>
                         </div>
                     </div>
                 </a>
             </li>
             <li>
-                <a href="">
-                    <div class="img">
-                        <img src="./images/time.jpg" alt="">
-                    </div>
+                <a href="" class="flex item">
+                    <img src="./images/time.jpg" alt="">
                     <div class="conter">
-                        <div class="title">
-                            PHP/GO后台开发 （腾讯全资子公司）
-                            <span class="salary">14-26K·16薪</span>
+                        <div class="title flex">
+                            <span>PHP开发实习生</span>
+                            <span class="salary">50-70元</span>
                         </div>
                         <div class="name">
-                            武汉天地
+                            科比科技
                         </div>
                         <div class="msg">
                             <span>武汉</span>
                             <span>5-10年</span>
-                            <span>本科</span>
+                            <span>大壮</span>
                         </div>
                     </div>
                 </a>
             </li>
         </ul>
+        <div class="down">
+            正在加载中···
+        </div>
     </div>
 </body>
 
